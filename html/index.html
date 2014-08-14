@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Some Title</title>
+
+<!-- main css -->
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/my.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="js/device.js"></script>
+<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+
+<!--[if lt IE 10]>
+	<script src="js/PIE.js"></script>
+<![endif]-->
+
+<!-- html5.js for IE less than 9 -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+	<script type="text/javascript" src="js/jquery.cycle2.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.carousel.js"></script>
+
+
+	<script type="text/javascript" src="js/js.js"></script>
+
+</head>
+<body>
+
+
+
+
+
+<div id="overlay"></div>
+<div class="popup popup__ener popup__login">
+	<h2>Войти на сайт</h2>
+
+	<div class="popup__login__sots">
+		<a href="#" class="popup__login__sots1"></a>
+		<a href="#" class="popup__login__sots2"></a>
+		<a href="#" class="popup__login__sots3"></a>
+		<a href="#" class="popup__login__sots4"></a>
+		<a href="#" class="popup__login__sots5"></a>
+	</div>
+	У меня есть аккаунт <br /><br />
+	<input type="text" class="txt" placeholder="Адрес эл. почты">
+	<input type="password" class="txt" placeholder="Пароль">
+	<a href="#" class="btn">войти</a>
+
+	<div class="popup__login__links i-clearfix">
+		<a href="#" class="reg"><span>Регистрация</span></a>
+		<a href="#">Забыли пароль?</a>
+	</div>
+</div>
+
+
+<div class="popup popup__ener popup__reg">
+	<h2>регистрация</h2>
+
+	<input type="text" class="txt" placeholder="Имя">
+	<input type="text" class="txt" placeholder="Адрес эл. почты">
+	<input type="password" class="txt" placeholder="Пароль">
+
+	<div class="capture i-clearfix">
+		<input type="text" class="txt" placeholder="Введите символы">
+		<img src="images/data/capture.png" alt="" />
+	</div>
+	<a href="#" class="btn">зарегистрироваться</a>
+
+	<div class="popup__login__links i-clearfix">
+		<a href="#" class="enter"><span>Войти на сайт</span></a>
+	</div>
+</div>
+
+
+
+<div class="pagewrap">
+
+	<header class="header">
+		<div class="header__inn i-clearfix">
+
+			<a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+
+			<div class="header__top i-clearfix">
+
+				<a href="#" class="header__enter">Войти</a>
+
+				<nav class="header__nav">
+					<ul class="header__nav__ul i-clearfix">
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Программы</a></li>
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Ведущие</a></li>
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Новости</a></li>
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Акции</a></li>
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">О нас</a></li>
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Услуги</a></li>
+						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Услуги</a></li>
+					</ul>
+				</nav>
+
+				<div class="i-clear">&nbsp;</div>
+				<div class="header__search">
+					<input type="text" class="txt" placeholder="Я ищу">
+					<a href="#"></a>
+				</div>
+
+				<div class="header__player">
+					<a href="#" class="play"></a>
+
+					<div class="volume">
+						<a href="#"></a>
+					</div>
+					<a href="#" class="volume__a"></a>
+					<div class="title">
+						Смысловые галлюцинации — Я сделал т
+					</div>
+					<div class="header__player__popup i-clearfix">
+						<a href="#" class="header__player__popup__x"></a>
+						<a href="#" class="ava"><img src="images/data/header__player__popup.png" alt="" /></a>
+						<div class="header__player__popup__inn">
+							В прямом эфире Лена Медова <br />
+							«Привет приветов»<br />
+							<span class="next">Следующая песня</span><br />
+							<span class="track">Мумий Тролль — Владивосток 2000</span>
+						</div>
+					</div>
+				</div>
+
+				<a href="#" class="header__bim">Бим ТВ</a>
+
+			</div>
+		</div>
+	</header>
+
+	<div class="center i-clearfix">
+
+
+		<section class="main__news i-clearfix">
+			<div class="main__news__r">
+				<a href="#"><img src="images/data/main__news__r.png" alt="" /></a>
+			</div>
+			<div class="main__news__l">
+				<div class="cycle-slideshow"
+					 data-cycle-fx="scrollHorz"
+					 data-cycle-timeout="0"
+					 data-cycle-slides="> .main__news__l__item"
+					 data-cycle-pager-template="<a href=#></a>"
+						>
+					<div class="cycle-pager"></div>
+
+					<div class="main__news__l__item">
+						<img src="images/data/main__news__l__item.png" alt="" />
+						<div class="main__news__l__item__inn">
+							<strong>Десять популярных пляжей <br />
+									для тех, кто застрял в городе</strong>
+							<span class="time">13 июня, 11:57</span>
+							<a href="#" class="comm">12</a>
+						</div>
+					</div>
+					<div class="main__news__l__item">
+						<img src="images/data/main__news__l__item.png" alt="" />
+						<div class="main__news__l__item__inn">
+							<strong>Десять популярных пляжей <br />
+									для тех, кто застрял в городе</strong>
+							<span class="time">13 июня, 11:57</span>
+							<a href="#" class="comm">12</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="main__bl2 i-clearfix">
+
+			<div class="main__video__bl">
+
+				<div class="main__video__bl__item">
+					<h2>видеорепортажи</h2>
+					<div class="cycle-slideshow"
+						 data-cycle-fx="scrollHorz"
+						 data-cycle-timeout="0"
+						 data-cycle-pager-template="<a href=#><img src='{{src}}'></a>"
+						 data-cycle-overlay-template="<strong>{{title}}</strong>{{desc}}"
+							>
+						<div class="cycle-pager"></div>
+						<div class="cycle-overlay"></div>
+						<img src="images/data/main__video__bl__item1.png" alt="" data-cycle-title="Чемпионат мира в Бразилии"
+							 data-cycle-desc="Дженнифер Лопес открыла мундиаль в Бразилии, спев вместе с Питбулем и бразильянкой Клаудиа Лейтте песню «We Are One»" />
+						<img src="images/data/main__video__bl__item1.png" alt="" data-cycle-title="222Чемпионат мира в Бразилии"
+							 data-cycle-desc="222Дженнифер Лопес открыла мундиаль в Бразилии, спев вместе с Питбулем и бразильянкой Клаудиа Лейтте песню «We Are One»" />
+					</div>
+				</div>
+
+				<div class="main__video__bl__item">
+					<h2>фоторепортажи</h2>
+					<div class="cycle-slideshow"
+						 data-cycle-fx="scrollHorz"
+						 data-cycle-timeout="0"
+						 data-cycle-pager-template="<a href=#><img src='{{src}}'></a>"
+						 data-cycle-overlay-template="<strong>{{title}}</strong>{{desc}}"
+							>
+						<div class="cycle-pager"></div>
+						<div class="cycle-overlay"></div>
+						<img src="images/data/main__video__bl__item1.png" alt="" data-cycle-title="Чемпионат мира в Бразилии"
+							 data-cycle-desc="Дженнифер Лопес открыла мундиаль в Бразилии, спев вместе с Питбулем и бразильянкой Клаудиа Лейтте песню «We Are One»" />
+						<img src="images/data/main__video__bl__item1.png" alt="" data-cycle-title="222Чемпионат мира в Бразилии"
+							 data-cycle-desc="222Дженнифер Лопес открыла мундиаль в Бразилии, спев вместе с Питбулем и бразильянкой Клаудиа Лейтте песню «We Are One»" />
+					</div>
+				</div>
+			</div>
+
+			<div class="main__news__bl">
+
+				<div class="main__news__bl__item">
+					<a href="#" class="img">
+						<img src="images/data/main__news__bl__item.png" alt="" />
+						<span class="over">
+							<span class="comm">76</span>
+							<span class="view">76</span>
+						</span>
+					</a>
+					<span class="time">13 июня, 12:10</span>
+					<a href="#" class="a">Джек Уайт выпустил второй сольный альбом «Lazaretto»</a>
+				</div>
+				<div class="main__news__bl__item">
+					<a href="#" class="img">
+						<img src="images/data/main__news__bl__item.png" alt="" />
+						<span class="over">
+							<span class="comm">76</span>
+							<span class="view">76</span>
+						</span>
+					</a>
+					<span class="time">13 июня, 12:10</span>
+					<a href="#" class="a">Джек Уайт выпустил второй сольный альбом «Lazaretto»</a>
+				</div>
+				<div class="main__news__bl__item">
+					<a href="#" class="img">
+						<img src="images/data/main__news__bl__item.png" alt="" />
+						<span class="over">
+							<span class="comm">76</span>
+							<span class="view">76</span>
+						</span>
+					</a>
+					<span class="time">13 июня, 12:10</span>
+					<a href="#" class="a">Джек Уайт выпустил второй сольный альбом «Lazaretto»</a>
+				</div>
+				<div class="main__news__bl__item">
+					<a href="#" class="img">
+						<img src="images/data/main__news__bl__item.png" alt="" />
+						<span class="over">
+							<span class="comm">76</span>
+							<span class="view">76</span>
+						</span>
+					</a>
+					<span class="time">13 июня, 12:10</span>
+					<a href="#" class="a">Джек Уайт выпустил второй сольный альбом «Lazaretto»</a>
+				</div>
+				<div class="main__news__bl__item">
+					<a href="#" class="img">
+						<img src="images/data/main__news__bl__item.png" alt="" />
+						<span class="over">
+							<span class="comm">76</span>
+							<span class="view">76</span>
+						</span>
+					</a>
+					<span class="time">13 июня, 12:10</span>
+					<a href="#" class="a">Джек Уайт выпустил второй сольный альбом «Lazaretto»</a>
+				</div>
+				<div class="main__news__bl__item">
+					<a href="#" class="img">
+						<img src="images/data/main__news__bl__item.png" alt="" />
+						<span class="over">
+							<span class="comm">76</span>
+							<span class="view">76</span>
+						</span>
+					</a>
+					<span class="time">13 июня, 12:10</span>
+					<a href="#" class="a">Джек Уайт выпустил второй сольный альбом «Lazaretto»</a>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="main__djs">
+			<h2>Радиодиджеи</h2>
+
+			<div class="cycle-slideshow"
+				 data-cycle-fx=carousel
+				 data-cycle-timeout=0
+				 data-cycle-carousel-visible=5
+				 data-cycle-next="#main__djs__next"
+				 data-cycle-prev="#main__djs__prev"
+				 data-cycle-slides="> .main__djs__item"
+					>
+				<div class="main__djs__item">
+					<img src="images/data/header__player__popup.png" alt="" width="148" height="148" />
+					<span>Лена Медова</span>
+				</div>
+				<div class="main__djs__item">
+					<img src="images/data/header__player__popup.png" alt="" width="148" height="148" />
+					<span>Лена Медова</span>
+				</div>
+				<div class="main__djs__item">
+					<img src="images/data/header__player__popup.png" alt="" width="148" height="148" />
+					<span>Лена Медова</span>
+				</div>
+				<div class="main__djs__item">
+					<img src="images/data/header__player__popup.png" alt="" width="148" height="148" />
+					<span>Лена Медова</span>
+				</div>
+				<div class="main__djs__item">
+					<img src="images/data/header__player__popup.png" alt="" width="148" height="148" />
+					<span>Лена Медова</span>
+				</div>
+				<div class="main__djs__item">
+					<img src="images/data/header__player__popup.png" alt="" width="148" height="148" />
+					<span>Лена Медова</span>
+				</div>
+			</div>
+			<a href="#" id="main__djs__next"></a>
+			<a href="#" id="main__djs__prev"></a>
+
+		</section>
+
+
+		<section class="main__sotial i-clearfix">
+
+			<div class="main__sotial__bl">
+				<h2 class="fb">FACEBOOK</h2>
+				<div class="main__sotial__bl__t i-clearfix">
+					<div class="fr">
+						<img src="images/data/main__sotial__bl__fb.png" alt="" />
+					</div>
+					148 участников
+				</div>
+				<div class="main__sotial__bl__inn i-clearfix">
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+
+				</div>
+			</div>
+
+			<div class="main__sotial__bl main__sotial__bl2">
+				<h2 class="inst">INSTAGRAM</h2>
+				<div class="main__sotial__bl__t i-clearfix">
+					148 участников
+				</div>
+				<div class="main__sotial__bl__inn i-clearfix">
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+					<img src="images/data/header__player__popup.png" alt="" width="75" height="75" />
+
+				</div>
+			</div>
+
+			<div class="main__sotial__bl">
+				<h2 class="vk">ВКОНТАКТЕ</h2>
+				<div class="main__sotial__bl__t i-clearfix">
+					<div class="fr">
+						<img src="images/data/main__sotial__bl__vk.png" alt="" />
+					</div>
+					148 участников
+				</div>
+				<div class="main__sotial__bl__inn i-clearfix">
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+					<img src="images/data/header__player__popup.png" alt="" width="50" height="50" />
+
+				</div>
+			</div>
+
+		</section>
+
+
+	</div>
+
+
+
+</div>
+<footer class="footer">
+	<div class="footer__inn">
+
+		<div class="footer__r">
+			<div class="address">
+				420021, Казань,
+				ул. Тукая, 91, а/я 344
+			</div>
+			<div class="phone">
+				<sup>843</sup> 293-08-00
+			</div>
+			<div class="mail">
+				Размещение рекламы <br />
+				<a href="#">adverts@bim-radio.ru</a>
+			</div>
+		</div>
+
+		<div class="footer__l">
+			<div class="footer__l__t i-clearfix">
+				<div class="footer__l__t__l">
+					© Радиостанция «Бим-радио» <br />
+					1994–2014
+				</div>
+				<div class="footer__l__t__r">
+					<a href="#" class="footer__sots1"></a>
+					<a href="#" class="footer__sots2"></a>
+					<a href="#" class="footer__sots3"></a>
+				</div>
+			</div>
+			<div class="footer__l__b">
+				<a href="#">
+					<img src="images/footer__l__b1.png" alt="" /><br />
+					Разработка сайта
+				</a>
+				<a href="#">
+					<img src="images/footer__l__b2.png" alt="" /><br />
+					Дизайн сайта
+				</a>
+			</div>
+		</div>
+
+		<div class="footer__c">
+			<ul>
+				<li><a href="#">Программы</a></li>
+				<li><a href="#">Ведущие</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">О нас</a>
+					<ul>
+						<li><a href="#">О «Бим-радио»</a></li>
+						<li><a href="#">Коллектив</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="footer__c">
+			<ul>
+				<li><a href="#">Акции</a></li>
+				<li><a href="#">Реклама на радио</a></li>
+				<li><a href="#">Услуги</a></a>
+					<ul>
+						<li><a href="#">Передать привет</a></li>
+						<li><a href="#">Заказать поздравление</a></li>
+						<li><a href="#">Оплата услуг</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</footer>
+
+</body>
+</html>
