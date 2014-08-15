@@ -309,6 +309,10 @@ table{ width: 100%; border-collapse: collapse; border-spacing: 0; border: 0; }
 	background-image: -o-linear-gradient(bottom, #fbfbfb 0%, #f3f3f3 100%);
 	background-image: -webkit-linear-gradient(bottom, #fbfbfb 0%, #f3f3f3 100%);
 	background-image: linear-gradient(bottom, #fbfbfb 0%, #f3f3f3 100%);
+	-moz-box-shadow: 0 20px 35px -20px black;
+	-webkit-box-shadow: 0 20px 35px -20px black;
+	-o-box-shadow: 0 20px 35px -20px black;
+	box-shadow: 0 20px 35px -20px black;
 }
 .header__player__popup__x{
 	position: absolute;
