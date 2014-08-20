@@ -1073,6 +1073,54 @@ textarea.txt{
 	padding: 5px 14px;
 }
 
+.datapiker__h{
+	display: inline-block;
+	*display: inline;
+	vertical-align: top;
+	zoom: 1;
+	position: relative;
+}
+.datapiker__h input{
+	width: 226px;
+	height: 36px;
+	margin: 0 0 8px 0;
+	padding: 0 14px;
+	font-size: 13px;
+	color: #818181;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	border: 3px solid #f1f1f1;
+	-moz-box-shadow: inset 0 2px 3px rgba(1,1,1,.4);
+	-webkit-box-shadow: inset 0 2px 3px rgba(1,1,1,.4);
+	box-shadow: inset 0 2px 3px rgba(1,1,1,.4);
+	outline: none;
+}
+.datapiker__h .ui-datepicker-trigger{
+	position: absolute;
+	right: 14px;
+	top: 14px;
+}
+.ui-datepicker{
+	width: 227px !important;
+}
+.ui-state-default{
+	font-size: 14px;
+	text-align: center !important;
+	border: 0 !important;
+	background: none !important;
+}
+.ui-state-active{
+	color: #FFF !important;
+	background: #0068cf !important;
+}
+.ui-datepicker-header{
+	font-size: 14px;
+	border: 0 !important;
+	background: none !important;
+}
+.ui-datepicker-calendar th span{
+	font-size: 14px !important;
+}
 
 .broadcasts{
 	margin: 0 0 49px 0;

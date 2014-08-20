@@ -32,5 +32,13 @@ $(document).ready(function(){
 		$('.popup__reg').css('display', 'block');
 	});
 
+	if($('.datepicker').length>0){
+		$( ".datepicker" ).datepicker({
+			showOn: "button",
+			buttonImage: "images/calendar.png",
+			buttonImageOnly: true
+		});
+	}
+
 	jQuery('input[placeholder], textarea[placeholder]').placeholder();
 });
